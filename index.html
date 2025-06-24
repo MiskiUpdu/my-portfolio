@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miski's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  
+
+  <section class="relative h-screen ">
+   <iframe
+    class="absolute top-0 left-0 w-full h-full pointer-events-none"
+    src="https://www.youtube.com/embed/jwPD_cQD2_w?autoplay=1&mute=1&loop=1&playlist=jwPD_cQD2_w&controls=0&showinfo=0&modestbranding=1"
+    title="Background Video"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen>
+  </iframe>
+
+   <input type="checkbox" id="menu-toggle" class="peer hidden">
+  <div class="absolute top-0 left-0 w-full flex justify-between items-center px-6 py-4 bg-black bg-opacity-60 backdrop-blur-md text-white">
+    <h1 style="font-family: 'Pacifico', cursive;" class="text-xl font-bold">Portfolio</h1>
+
+    <label for="menu-toggle" class="cursor-pointer md:hidden text-2xl">☰</label>
+
+    <ul class="hidden md:flex space-x-4 text-sm md:text-base font-medium">
+      <li><a href="index.html" class="hover:text-purple-300">Home</a></li>
+      <li><a href="#about" class="hover:text-purple-300">About Me</a></li>
+      <li><a href="skills.html" class="hover:text-purple-300">Skills</a></li>
+      <li><a href="projects.html" class="hover:text-purple-300">Projects</a></li>
+      <li><a href="contact.html" class="hover:text-purple-300">Contact</a></li>
+      <li><a href="blogs.html" class="hover:text-purple-300">Blogs</a></li>
+      <li><a href="oops.html" class="hover:text-purple-300"> Lil note</a></li>
+
+    </ul>
+  </div>
+
+  <ul class="peer-checked:flex hidden flex-col bg-black bg-opacity-90 text-white space-y-4 text-center py-6 md:hidden text-base font-medium">
+    <li><a href="index.html" class="hover:text-purple-300">Home</a></li>
+    <li><a href="#about" class="hover:text-purple-300">About Me</a></li>
+    <li><a href="skills.html" class="hover:text-purple-300">Skills</a></li>
+    <li><a href="projects.html" class="hover:text-purple-300">Projects</a></li>
+    <li><a href="contact.html" class="hover:text-purple-300">Contact</a></li>
+    <li><a href="blogs.html" class="hover:text-purple-300">Blogs</a></li>
+    <li><a href="oops.html" class="hover:text-purple-300"> Lil note</a></li>
+
+  </ul>
+ </div>
+
+    
+    <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
+      <a href="#about" class="animate-bounce text-white text-sm sm:text-base font-semibold bg-pink-600 hover:bg-purple-700 px-4 sm:px-6 py-2 rounded-full shadow-md">
+        More About Me
+      </a>
+    </div>
+  </section>
+  
+ <section id="about" class="bg-pink-50 py-12 px-6">
+  <div class="max-w-5xl mx-auto bg-white shadow-md rounded-xl p-10 relative" style="background-image: url('images/notebook-bg.png'); background-size: cover; background-position: center;">
+    
+    <div class="absolute top-6 right-6 w-32 transform rotate-2 shadow-lg">
+      <img src="images/miski.jpg" alt="Miski" loading="lazy" class="rounded-md border border-white">
+      <p class="text-xs text-center mt-1 italic text-gray-600"></p>
+    </div>
+
+    <div class="text-gray-800 font-serif leading-relaxed space-y-4">
+      <h2 class="text-2xl font-bold italic">Hi! I am Miski Abdullahi <span class="wave-hand">👋</span></h2>
+       <p>
+         I am a Computer Science student with a growing interest in web development and programming.  
+       </p>
+       <p>
+         I have a strong foundation in basic database tools like SQL and Microsoft Access.  
+         I am currently exploring the fundamentals of HTML, CSS, Python, and more. 
+       </p>
+      
+      <p>
+        Most of what I have learned so far has come from resources like YouTube tutorials, 
+        W3Schools, and interactive coding games that make learning fun and engaging like codedex. And now, 
+        I have built my very first project! I am still a beginner, for sure but I show up, I keep learning, and I dream big
+      </p>
+      <p>
+        This portfolio is just a small glimpse of my progress so far… 
+        and it is only the beginning. Stick around  you never know what I will create next
+
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+     <div class="bg-pink-500 text-black-800 px-4 py-2 rounded-full text-center font-semibold shadow-sm">
+         🌱 Finished my first HTML site
+     </div>
+     <div class="bg-pink-500 text-black-800 px-4 py-2 rounded-full text-center font-semibold shadow-sm">
+        🧠 Debugged my first CSS bug
+     </div>
+     <div class="bg-pink-500 text-black-800 px-4 py-2 rounded-full text-center font-semibold shadow-sm">
+        🚀 Deployed to GitHub like a pro
+     </div>
+     </div>
+        <div class="typewriter-box">
+         <p class="typewriter-text">So here I am not perfect at all, still learning, and blooming just like the flowers on my homepage</p>
+        <a href="#top" class="text-sm text-pink-500 "> Back to top</a>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<footer class="bg-pink-100 text-center py-6 text-sm text-gray-700 mt-10">
+  <p class="mb-1 italic">"Made with  care."</p>
+  <p class="text-lg">🌸☕💻🌙</p>
+  <p class="mt-1"> Keep exploring 😂</p>
+</footer>
+
+</body>
+</html>
